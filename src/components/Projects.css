@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+.snip1217 {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  font-weight:bold;
+  letter-spacing: 1px;
+}
+
+.snip1217 ul {
+  padding-top: 2%;
+}
+.snip1217 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1217 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 1.5em;
+  padding: 0;
+}
+.snip1217 a {
+  padding: 0.3em 0;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+}
+.snip1217 a:before,
+.snip1217 a:after {
+  height: 3px;
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  background-color: #7490dc;
+  width: 0;
+}
+.snip1217 a:before {
+  top: 0;
+  left: 0;
+}
+.snip1217 a:after {
+  bottom: 0;
+  right: 0;
+}
+.snip1217 a:hover,
+.snip1217 .current a {
+  color: #ffffff;
+}
+.snip1217 a:hover:before,
+.snip1217 .current a:before,
+.snip1217 a:hover:after,
+.snip1217 .current a:after {
+  width: 100%;
+}
+.snip1217 {
+  display: flex;
+  flex-direction: column;
+  background-image: url("resources/bg.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.projhead{
+  color:#7490dc;
+}
+
+
+.slider-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  border:#7490dc solid 2px;
+  max-width: 90%;
+  margin-left: 5%;
+  background-color: black;
+  opacity: 80%;
+  border-radius: 15%;
+  box-shadow: 16px 16px 20px rgba(37, 116, 189, 0.25);
+  transition: color 1.3s ease-in-out;
+}
+
+.slider-container:hover{
+  border:#7490dc solid 4px;
+  box-shadow: 26px 26px 30px rgba(37, 116, 189, 0.25);
+
+}
+
+.slide-content {
+  font-size: 24px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity:80%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color:#ffffff;
+  transition: transform 1.5s ease-in-out;
+}
+
+.slide-info{
+  color:#7490dc;
+  margin-bottom:3%
+}
+
+.slider-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-arrow {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  margin: 0 10px;
+  color: #7490dc;
+  margin-bottom:5%;
+  transition: color 1.3s ease-in-out;
+  margin-right:75%;
+  margin-left:40%
+}
+
+.slider-arrow:hover{
+  box-shadow: 10px 10px 10px 10px rgba(37, 116, 189, 0.25);
+  border-radius: 50%;
+}
+
+.slider-arrow:disabled {
+  color: #666666;
+}
+
+.snip1217 .current a {
+  color: #ffffff;
+}
