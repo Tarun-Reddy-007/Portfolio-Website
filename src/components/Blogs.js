@@ -4,7 +4,7 @@ import "./Blogs.css";
 
 const Blogs = () => {
   return (
-    <div class="snip1217">
+    <div className="snip1217">
       <nav>
         <ul>
           <li>
@@ -33,52 +33,52 @@ const Blogs = () => {
       <hr width="30%" color="#7490dc" />
       <h2 className="bloghead">My Blogs</h2>
       <hr width="30%" color="#7490dc" />
-      <div class="container">
-        <div class="card">
-          <div class="box">
-            <div class="content">
+      <div className="container">
+        <div className="card">
+          <div className="box">
+            <div className="content">
               <h3>
                 Transforming Agriculture with Machine Learning and Artificial
                 Intelligence
               </h3>
-              <a href="#">Read More</a>
+              <a href="https://medium.com/@tarunreddy007/transforming-agriculture-with-machine-learning-and-artificial-intelligence-4142bdb6f363">Read More</a>
             </div>
           </div>
         </div>
 
-        <div class="card">
-          <div class="box">
-            <div class="content">
+        <div className="card">
+          <div className="box">
+            <div className="content">
               <h3>
                 Empowering Wildlife Conservation through Computer Vision in
                 Forests
               </h3>
-              <a href="#">Read More</a>
+              <a href="https://medium.com/@tarunreddy007/empowering-wildlife-conservation-through-computer-vision-in-forests-140c5bc9fafb">Read More</a>
             </div>
           </div>
         </div>
 
-        <div class="card">
-          <div class="box">
-            <div class="content">
+        <div className="card">
+          <div className="box">
+            <div className="content">
               <h3>Scope and Research Areas in Artificial Intelligence</h3>
-              <a href="#">Read More</a>
+              <a href="https://medium.com/@tarunreddy007/scope-and-research-areas-in-artificial-intelligence-f84ad7d97fdb">Read More</a>
             </div>
           </div>
         </div>
-        <div class="card">
-          <div class="box">
-            <div class="content">
+        <div className="card">
+          <div className="box">
+            <div className="content">
               <h3>Computer Vision Revolutionizing the Agritech Industry</h3>
-              <a href="#">Read More</a>
+              <a href="https://medium.com/@tarunreddy007/computer-vision-revolutionizing-the-agritech-industry-5d1ea049be0f">Read More</a>
             </div>
           </div>
         </div>
-        <div class="card">
-          <div class="box">
-            <div class="content">
+        <div className="card">
+          <div className="box">
+            <div className="content">
               <h3>Artificial Intelligence in Engineering</h3>
-              <a href="#">Read More</a>
+              <a href="https://medium.com/@tarunreddy007/artificial-intelligence-in-engineering-f83bf93c9b12">Read More</a>
             </div>
           </div>
         </div>

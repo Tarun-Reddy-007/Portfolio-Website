@@ -63,7 +63,7 @@
 .achsnip1217 {
   display: flex;
   flex-direction: column;
-  background-image: url("resources/bg.gif");
+  background-image: url("https://i.imgur.com/N1AxbHO.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -94,7 +94,7 @@
   background-color: black;
   opacity: 0.8;
   margin-bottom:5%;
-  border: #7490dc solid 2px;
+  border: #7490dc solid 5px;
 }
 
 .card:hover {

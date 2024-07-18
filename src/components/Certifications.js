@@ -1,57 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Certifications.css";
-import cert1 from "./resources/cert1.png";
-import cert2 from "./resources/cert2.jpg";
-import cert3 from "./resources/cert3.jpg";
-import cert4 from "./resources/cert4.jpg";
-import cert5 from "./resources/cert5.png";
-import cert6 from "./resources/cert6.png";
-import cert7 from "./resources/cert7.jpg";
-import cert8 from "./resources/cert8.png";
-import cert9 from "./resources/cert9.jpg";
-import cert10 from "./resources/cert10.png";
-import cert11 from "./resources/cert11.jpg";
-import cert12 from "./resources/cert12.png";
-import cert13 from "./resources/cert13.png";
-import cert14 from "./resources/cert14.png";
-import cert15 from "./resources/cert15.jpg";
-import cert16 from "./resources/cert16.jpg";
-import cert17 from "./resources/cert17.jpg";
-import cert18 from "./resources/cert18.jpg";
-import cert19 from "./resources/cert19.png";
-import cert20 from "./resources/cert20.png";
-import cert21 from "./resources/cert21.jpg";
-import cert22 from "./resources/cert22.png";
-import cert23 from "./resources/cert23.jpg";
-import cert24 from "./resources/cert24.png";
-import cert25 from "./resources/cert25.jpg";
-import cert26 from "./resources/cert26.png";
-import cert27 from "./resources/cert27.jpg";
-import cert28 from "./resources/cert28.jpg";
-import cert29 from "./resources/cert29.jpg";
-import cert30 from "./resources/cert30.jpg";
-import cert31 from "./resources/cert31.jpg";
-import cert32 from "./resources/cert32.jpg";
-import cert33 from "./resources/cert33.jpg";
-import cert34 from "./resources/cert34.jpg";
-import cert35 from "./resources/cert35.jpg";
-import cert36 from "./resources/cert36.jpg";
-import cert37 from "./resources/cert37.jpg";
-import cert38 from "./resources/cert38.jpg";
-import cert39 from "./resources/cert39.jpg";
-import cert40 from "./resources/cert40.jpg";
-import cert41 from "./resources/cert41.jpg";
-import cert42 from "./resources/cert42.jpg";
-import cert43 from "./resources/cert43.jpg";
-import cert44 from "./resources/cert44.jpg";
-import cert45 from "./resources/cert45.jpg";
-import cert46 from "./resources/cert46.jpg";
-import cert47 from "./resources/cert47.jpg";
-import cert48 from "./resources/cert48.jpg";
-import cert49 from "./resources/cert49.jpg";
-import cert50 from "./resources/cert50.jpg";
-import cert51 from "./resources/cert51.jpg";
 
 const Certifications = () => {
   useEffect(() => {
@@ -103,7 +52,7 @@ const Certifications = () => {
   }, []);
 
   return (
-    <div class="snip1217">
+    <div className="snip1217">
       <nav>
         <ul>
           <li>
@@ -132,260 +81,260 @@ const Certifications = () => {
       <hr width="30%" color="#7490dc" />
       <h2 className="blogcert">My Certificates</h2>
       <hr width="30%" color="#7490dc" /><br/>
-      <div class="gallery" id="gallery">
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert1} alt="" />
+      <div className="gallery" id="gallery">
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/tP0Xnbu.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert2} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/bTy182E.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert3} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/F7tEEMZ.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert4} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/NEl3EpT.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert5} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/73VojZt.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert6} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/P1iXa0R.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert7} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/7bxADdl.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert8} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/CJPaGc5.png" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert9} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/7TcFppA.png" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert10} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/T8sjclG.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert11} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/dgDaRFS.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert12} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/p19SkJj.png" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert13} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/vq3WrxD.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert14} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/smrZJCm.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert15} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/FhxJk0Y.png" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert16} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/SrJBHGB.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert17} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/zDfBJNc.png" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert18} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/xBQwfXo.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert19} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/NFzLikP.png" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert20} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/FuIMdhu.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert21} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/psna1sC.png" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert22} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/A15SRvM.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert23} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/nAcBhN4.png" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert24} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/dVY6YjZ.png" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert25} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/FrJJraq.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert26} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/5NLO2Vk.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert27} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/aHvCbFP.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert28} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/Whw8Rre.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert29} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/UiDNBiI.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert30} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/I1Rvx89.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert31} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/dr9ka87.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert32} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/sTVGCyN.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert33} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/SIzDQSs.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert34} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/T18v7iP.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert35} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/qhwG1bF.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert36} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/GSaPasn.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert37} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/9I0LGoq.png" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert38} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/QusW1CU.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert39} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/aykZs69.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert40} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/Mh5lqWN.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert41} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/Huz417H.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert42} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/u9A3X5E.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert43} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/zenqpSx.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert44} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/r94vYX6.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert45} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/dmNHp1K.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert46} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/SMxP76d.png" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert47} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/ZeR1c9h.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert48} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/4x0EOBX.png" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert49} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/g0srp11.png" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert50} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/74tFQ4L.jpg" alt="" />
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="content">
-            <img src={cert51} alt="" />
+        <div className="gallery-item">
+          <div className="content">
+            <img src="https://i.imgur.com/xpVskSI.jpg" alt="" />
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@ import me2 from "./resources/me2.jpeg";
 
 const Aboutme = () => {
   return (
-    <div class="snip1217">
+    <div className="snip1217">
       <nav>
         <ul>
           <li>
@@ -15,7 +15,7 @@ const Aboutme = () => {
             <Link to="/Aboutme">About Me</Link>
           </li>
           <li>
-            <Link to="/Achievements">Achievements</Link>
+            <Link to="/Accomplishments">Accomplishments</Link>
           </li>
           <li>
             <Link to="/Projects">Projects</Link>
@@ -31,9 +31,9 @@ const Aboutme = () => {
           </li>
         </ul>
       </nav>
-      <div class="aboutme-card">
+      <div className="aboutme-card">
         <p>
-          <span class="heading">ABOUT ME</span>
+          <span className="heading">ABOUT ME</span>
           <br />
           <br />A dynamic and driven individual with a track record of
           achievements spanning diverse fields. My journey has been marked by
@@ -72,7 +72,7 @@ const Aboutme = () => {
           channel my passion, skills, and experiences towards impactful
           endeavors that drive positive change.
         </p>
-        <img src={me2} />
+        <img src="https://i.imgur.com/M0obdLg.jpg" />
       </div>
     </div>
   );

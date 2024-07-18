@@ -1,11 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
-import me1bg from "./resources/me1bg.png";
 
 const Home = () => {
   return (
-    <div class="snip1217">
+    <div className="snip1217">
       <nav>
         <ul>
           <li>
@@ -31,10 +30,10 @@ const Home = () => {
           </li>
         </ul>
       </nav>
-      <div class="title">
+      <div className="title">
         <h1>
           TARUN REDDY{" "}
-          <div class="roller">
+          <div className="roller">
             <span id="rolltext">
               Data Scientist
               <br />
@@ -44,8 +43,18 @@ const Home = () => {
               <br />
             </span>
           </div>
+          <div className="buttons">
+            <a
+              href="https://drive.google.com/file/d/1Fz6ieamupxMaakhRyCw8Olc1hc7e3N5e/view?usp=sharing" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="pdf-button"
+            >
+              View Resume
+            </a>
+          </div>
         </h1>
-        <img src={me1bg}></img>
+        <img src="https://i.imgur.com/Yf6qeTj.png" alt="Profile"></img>
       </div>
     </div>
   );

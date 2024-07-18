@@ -24,7 +24,7 @@ const Projects = () => {
     setCurrentSlide(slideIndex);
   };
   return (
-    <div class="snip1217">
+    <div className="snip1217">
       <nav>
         <ul>
           <li>
@@ -34,7 +34,7 @@ const Projects = () => {
             <Link to="/Aboutme">About Me</Link>
           </li>
           <li>
-            <Link to="/Achievements">Achievements</Link>
+            <Link to="/Accomplishments">Accomplishments</Link>
           </li>
           <li>
             <Link to="/Projects">Projects</Link>
