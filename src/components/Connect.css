@@ -6,6 +6,16 @@
   letter-spacing: 1px;
 }
 
+body {
+  font-family: 'Raleway', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://i.imgur.com/N1AxbHO.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .snip1217 ul {
   padding-top: 2%;
 }
@@ -101,7 +111,7 @@ textarea {
   resize:vertical;
 }
 
-[type="submit"] {
+.submit{
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;
   background:#4b74d3;
@@ -115,8 +125,9 @@ textarea {
   transition: all 0.3s;
   margin-top:-4px;
   font-weight:700;
+  border: #000000 solid 2px; 
 }
-[type="submit"]:hover { 
+.submit:hover { 
   background:rgb(0, 0, 0);
   border: #4b74d3 solid 2px; 
   color:#4b74d3;
@@ -169,6 +180,8 @@ textarea {
   color:#d3d3d3;
   margin: 0 30px;
   transition:.5s;
+  margin-bottom: 5%;
+  margin-top: 15%;
 }
 .connect-icons ul li a span {
   position:absolute;

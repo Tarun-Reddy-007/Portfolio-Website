@@ -35,11 +35,11 @@ const Home = () => {
           TARUN REDDY{" "}
           <div className="roller">
             <span id="rolltext">
-              Data Scientist
+              Data Science
               <br />
               Web Development
               <br />
-              Machine Learning Developer
+              Project Management
               <br />
             </span>
           </div>
@@ -49,6 +49,7 @@ const Home = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="pdf-button"
+              style={{fontSize:"30%", color:"black", backgroundColor:"#7490dc", padding:"1%"}}
             >
               View Resume
             </a>

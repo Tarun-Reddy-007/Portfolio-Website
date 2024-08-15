@@ -6,6 +6,16 @@
   letter-spacing: 1px;
 }
 
+body {
+  font-family: 'Raleway', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://i.imgur.com/N1AxbHO.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .snip1217 ul {
   padding-top: 2%;
 }
@@ -28,6 +38,7 @@
   text-decoration: none;
   display: inline-block;
 }
+
 .snip1217 a:before,
 .snip1217 a:after {
   height: 3px;
@@ -68,9 +79,9 @@
 }
 
 .projhead{
+  font-weight: bold;
   color:#7490dc;
 }
-
 
 .slider-container {
   display: flex;
@@ -85,10 +96,11 @@
   border-radius: 15%;
   box-shadow: 16px 16px 20px rgba(37, 116, 189, 0.25);
   transition: color 1.3s ease-in-out;
+  padding:3%;
 }
 
 .slider-container:hover{
-  border:#7490dc solid 4px;
+  border:#7490dc solid 2px;
   box-shadow: 26px 26px 30px rgba(37, 116, 189, 0.25);
 
 }
@@ -123,20 +135,15 @@
   margin: 0 10px;
   color: #7490dc;
   margin-bottom:5%;
-  transition: color 1.3s ease-in-out;
+  transition: color 0.5s ease-in-out;
   margin-right:75%;
   margin-left:40%
 }
 
 .slider-arrow:hover{
-  box-shadow: 10px 10px 10px 10px rgba(37, 116, 189, 0.25);
-  border-radius: 50%;
+  color: white;
 }
 
 .slider-arrow:disabled {
   color: #666666;
-}
-
-.snip1217 .current a {
-  color: #ffffff;
 }

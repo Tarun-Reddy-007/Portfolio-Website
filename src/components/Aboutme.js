@@ -1,9 +1,128 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Aboutme.css";
 import me2 from "./resources/me2.jpeg";
 
 const Aboutme = () => {
+
+  const [activeSection, setActiveSection] = useState('skills');
+
+  const renderContent = () => {
+    switch (activeSection) {
+      case 'skills':
+        return (
+          <div className="content-section">
+            	<ul className="skills" >
+              <li>Python</li>
+              <li>Java</li>
+              <li>Javascript</li>
+              <li>MySQL</li>
+              <li>Power BI</li>
+              <li>Microsoft Excel</li>
+              <li>Git/Github</li>
+              <li>Unix Shell</li>
+              <li>React.js</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>Flask</li>
+              <li>MongoDB</li>
+              <li>Pandas</li>
+              <li>Numpy</li>
+              <li>Matplotlib</li>
+              <li>Seaborn</li>
+              <li>Scikit-Learn</li>
+              <li>Tensorflow</li>
+              <li>Pytorch</li>
+              <li>OpenCV</li>
+              <li>NLTK</li>
+              <li>Beautiful Soup</li>
+              <li>Firebase</li>
+              <li>Azure</li>
+              <li>Google Cloud</li>
+              <li>Project Management</li>
+              <li>Data Analysis</li>
+              <li>Machine Learning</li>
+              <li>Web Development</li>
+              <li>Digital Marketing</li>
+              <li>Trello</li>
+            </ul>
+          </div>
+        );
+        case 'leadership':
+          return (
+            <div className="content-section">
+              <div className="leadership-experience">
+                <div className="experience">
+                  <div className="experience-header">
+                    <span className="position">NSS Student Leader</span>
+                    <span className="year">2021 - 2023</span>
+                  </div>
+                  <ul className="bullet-points">
+                  <li>Conducted more than 30 offline and online events, programs and campaigns in 2 years of my tenure.</li>
+                  <li>Awarded as the best student volunteer and social service award.</li>
+                  <li>Led a team of over 50 to conduct more than 300 hours of teaching across 10 government schools in and around Bengaluru.</li>
+                  </ul>
+                </div>
+                <div className="experience">
+                  <div className="experience-header">
+                    <span className="position">Computer Programming Head, Team Vikasana-R&I, Presidency University, Bengaluru</span>
+                    <span className="year">2021 - 2023</span>
+                  </div>
+                  <ul className="bullet-points">
+                    <li>Consistently met my short and long-term targets.</li>
+                    <li>Proactively participated in meetings and helped create new practices.</li>
+                    <li>Trained, coached, and supervised new staff members. </li>
+                    <li>Pitched ideas on how to improve performance and efficiency.</li>
+                    <li>Helped management to identify workflow issues and find solutions.</li>
+                    <li>Supervised and delegated tasks to a team of 21 people.</li>
+                  </ul>
+                </div>
+                <div className="experience">
+                  <div className="experience-header">
+                    <span className="position">University Cricket Team Captain</span>
+                    <span className="year">2022 - 2023</span>
+                  </div>
+                  <ul className="bullet-points">
+                    <li>Organized Fitness campaigns and Skill Development to scout Talen in and around the University.</li>
+                    <li>Lead the team in various tournaments and practise matches.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          );
+      case 'work':
+        return (
+          <div className="content-section">
+            <div className="leadership-experience">
+                <div className="experience">
+                  <div className="experience-header">
+                    <span className="position">Digital Marketing Intern, Apponix Technologies</span>
+                    <span className="year">Jan, 2021 - Apr, 2021</span>
+                  </div>
+                  <ul className="bullet-points">
+                    <li>Analyzed website performance and effectively practiced SEO optimization.</li>
+                    <li>Conducting market research to identify target audiences, competitors, and industry trends.</li>
+                    <li>Assisting in creating and managing email marketing campaigns. This involves writing email copy, setting up email automation, and analyzing email performance.</li>
+                  </ul>
+                </div>
+                <div className="experience">
+                  <div className="experience-header">
+                    <span className="position">Campus Ambassador, Bolt-IOT</span>
+                    <span className="year">Nov, 2020 - Dec, 2020</span>
+                  </div>
+                  <ul className="bullet-points">
+                    <li>Carried our peer-peer-marketing in the University and social media platforms to sell the Bolt-IOT develoment kit.</li>
+                    <li>Created photos and videos about the product and shared them on social media platforms like LinkedIn, Instagram and Twitter.</li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+        );
+      default:
+        return null;
+    }
+  };
+
   return (
     <div className="snip1217">
       <nav>
@@ -31,49 +150,48 @@ const Aboutme = () => {
           </li>
         </ul>
       </nav>
-      <div className="aboutme-card">
-        <p>
-          <span className="heading">ABOUT ME</span>
-          <br />
-          <br />A dynamic and driven individual with a track record of
-          achievements spanning diverse fields. My journey has been marked by
-          significant milestones, including orchestrating and managing two
-          editions of the national-level Business Plan event "Sankalp," engaging
-          over 800 participants in both 2021 and 2022. I have also conquered the
-          heights of the mountains, completing a Mountaineering course at
-          ABVIMAS, Manali, endorsed by the Government of Himachal Pradesh.My
-          passion for leadership and public speaking led to my selection to
-          deliver a compelling speech at the Lok Sabha on Mahatma Gandhi
-          Jayanthi, an event graced by prominent figures, including Shri.
-          Narendra Modi. Additionally, I have successfully organized over 30
-          impactful events and campaigns during my tenure at the NSS Cell,
-          Presidency University, Bangalore. I proudly led the Coding department
-          at Team Vikasana, a research and Innovation Startup at my University,
-          for three transformative years. Contributing to societal well-being, I
-          led a team of 50 volunteers in the implementation of "TEACHUP," a
-          program benefitting underprivileged students across 10 government
-          schools. Through this initiative, we imparted knowledge in subjects
-          ranging from Science and Mathematics to Computer Science and Arts. My
-          accomplishments extend to the world of technology, where I clinched
-          prizes in prestigious hackathons and research conventions, showcasing
-          my innovation in projects such as the Farm Invasion Detection System
-          (FINDEM) and the VRIDDHI E-Commerce platform for handicrafts. My
-          commitment to sustainable solutions shines through in the development
-          of applications like REW (RE-Waste) and CNTA (Child Nutrition Tracking
-          App). Beyond my technical prowess, I've displayed exemplary leadership
-          as the elected Captain of the University Cricket Team and Director of
-          Programming for Team Vikasana. My role as a leader of the National
-          Service Scheme Cell earned me recognition as the NSS Yuva Yodha of the
-          Year. Consistently achieving and exceeding targets, I bring a
-          proactive approach to my work, fostering innovation and efficiency.
-          Through market research, email marketing campaigns, and SEO
-          optimization, I've demonstrated my versatility in enhancing digital
-          presence and engagement. As I continue on my journey, I am excited to
-          channel my passion, skills, and experiences towards impactful
-          endeavors that drive positive change.
-        </p>
-        <img src="https://i.imgur.com/M0obdLg.jpg" />
+      <section className="about-me-content">
+        <div className="left-column">
+          <img src="https://i.imgur.com/M0obdLg.jpg" className="profile-photo" />
+          <div className="summary">
+            <p style={{fontSize:"80%", fontWeight:"bold"}}>
+              I am a skilled data scientist and software engineer with a passion for
+              solving complex problems using innovative technologies. With a strong
+              background in machine learning, computer vision, and data analysis, I
+              excel in developing cutting-edge solutions to drive business growth and
+              improve operational efficiency. My dedication to continuous learning and
+              excellence in team collaboration has enabled me to contribute effectively
+              to various projects and initiatives.
+            </p>
+          </div>
+        </div>
+        <div className="right-column">
+      <div className="buttons">
+        <button
+          className={`button-paper ${activeSection === 'skills' ? 'selected' : ''}`}
+          role="button"
+          onClick={() => setActiveSection('skills')}
+        >
+          Skills
+        </button>
+        <button
+          className={`button-paper ${activeSection === 'leadership' ? 'selected' : ''}`}
+          role="button"
+          onClick={() => setActiveSection('leadership')}
+        >
+          Leadership Experience
+        </button>
+        <button
+          className={`button-paper ${activeSection === 'work' ? 'selected' : ''}`}
+          role="button"
+          onClick={() => setActiveSection('work')}
+        >
+          Work Experience
+        </button>
       </div>
+      {renderContent()}
+    </div>
+      </section>
     </div>
   );
 };

@@ -6,6 +6,16 @@
   letter-spacing: 1px;
 }
 
+body {
+  font-family: 'Raleway', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://i.imgur.com/N1AxbHO.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .snip1217 ul {
   padding-top: 2%;
 }
@@ -67,44 +77,223 @@
   height: 100vh;
 }
 
-.aboutme-card p {
-  margin: 0;
-  margin-right: 5%;
-  opacity: 100%;
-  color: rgb(255, 255, 255);
+.about-me-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  align-items: flex-start;
+}
+
+.left-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 2px solid #7490dc;
+  border-top: 2px solid #7490dc;
+}
+
+.profile-photo {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  margin-right: 65px;
+  margin-top: 50px;
+}
+
+.summary {
+  text-align: justify;
+  color: #7490dc;
+  margin-left: 1%;
+  margin-right: 60px;
+}
+
+.summary p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.right-column {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 2rem;
+}
+
+.button-paper {
+  align-self: center;
+  background-color: black; 
+  border: 2px solid #7490dc;
+  color: #7490dc; 
+  border-radius: 15px;
+  padding: 1rem;
+  font-size: 100%;
+  line-height: 23px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  margin:2rem;
+}
+
+.button-paper:hover,
+.button-paper.selected {
+  background-color: #7490dc;
+  border-color: black; 
+  color: black; 
+}
+
+.skills {
+  position: relative;
+  width: 100%;
+  max-height: 400px; 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px; 
+  padding-bottom: 15px;
+  box-sizing: border-box;
+  overflow-y: auto; 
+  scrollbar-width: thin;
+  scrollbar-color: #7490dc transparent; 
+
+}
+
+.skills::-webkit-scrollbar {
+  width: 8px; 
+}
+
+.skills::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+.skills::-webkit-scrollbar-thumb {
+  background-color: #7490dc; 
+  border-radius: 10px; 
+  border: none;
+}
+
+.skills::-webkit-scrollbar-button {
+  display: none; 
+}
+
+.skills li {
+  position: relative;
+  color: black;
+  padding: 10px;
+  line-height: 24pt;
+  font-weight: 500;
+  transition: all 0.1s linear;
+  color:white;
+  text-align: justify;
+  font-size: 100%;
   font-weight: normal;
 }
 
-.aboutme-card p:not(:last-child) {
-  margin-bottom: 1.5em;
+.skills li::before {
+  content: "◆";
+  display: inline-block;
+  color: #7490dc; 
+  font-size: 14pt; 
+  margin-right: 10px; 
 }
 
-.aboutme-card {
-  max-width: 85%;
-  min-height: 80%;
+.content-section {
+  margin-top: 2rem;
+}
+
+.content-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color:white;
+}
+
+.content-section p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color:#7490dc
+}
+
+.leadership-experience {
+  max-height: 400px; 
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #7490dc transparent;
+}
+
+.work-experience {
+  max-height: 400px; 
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #7490dc transparent;
+}
+
+.leadership-experience::-webkit-scrollbar,
+.work-experience::-webkit-scrollbar {
+  width: 8px;
+}
+
+.leadership-experience::-webkit-scrollbar-track,
+.work-experience::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.leadership-experience::-webkit-scrollbar-thumb,
+.work-experience::-webkit-scrollbar-thumb {
+  background-color: #7490dc;
+  border-radius: 10px;
+  border: none;
+}
+
+.leadership-experience::-webkit-scrollbar-button,
+.work-experience::-webkit-scrollbar-button {
+  display: none;
+}
+
+
+.leadership-experience .experience {
+  margin-bottom: 20px;
+  padding: 1rem;
+  border-top: 2px solid #7490dc;
+  border-radius: 8px;
+  margin-right: 9%;
+  margin-left: 7%;
+}
+
+.experience-header {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
-  margin-left: 8%;
-  max-width: 85%;
-  height: 80%;
-  padding: 35px;
-  flex-direction: row;
-  border: 1px solid rgba(0, 0, 0, 0.25);
-  border-radius: 10%;
-  background-color: rgba(0, 0, 0, 0.829);
-  opacity: 90%;
-  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
-  font-size:56%;
-  backdrop-filter: blur(15px);
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #7490dc;
 }
 
-.aboutme-card img{
-  border-radius: 15%;
-  margin-top: 5%;
+.position {
+  flex: 1;
+  text-align: left;
+  font-size: 130%;
 }
 
-.aboutme-card .heading{
-  font-size: xx-large;
+.year {
+  flex: 1;
+  text-align: right;
+  font-size: 130%;
 }
 
+.bullet-points {
+  margin-top: 10px;
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #7490dc;
+  text-align: left;
+  font-size: 80%;
+}
+
+.bullet-points li::before {
+  content: "●";
+  display: inline-block;
+  color: #7490dc; 
+  font-size: 14pt; 
+  margin-right: 10px; 
+}

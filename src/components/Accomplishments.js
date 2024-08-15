@@ -4,7 +4,7 @@ import "./Accomplishments.css";
 
 const Accomplishments = () => {
   return (
-    <div className="achsnip1217">
+    <div className="snip1217">
       <nav>
         <ul>
           <li>

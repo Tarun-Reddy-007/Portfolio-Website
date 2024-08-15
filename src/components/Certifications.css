@@ -6,6 +6,16 @@
   letter-spacing: 1px;
 }
 
+body {
+  font-family: 'Raleway', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://i.imgur.com/N1AxbHO.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .snip1217 ul {
   padding-top: 2%;
 }

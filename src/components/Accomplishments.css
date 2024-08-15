@@ -1,39 +1,45 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
 
-.achsnip1217 {
+.snip1217 {
   font-family: 'Raleway', Arial, sans-serif;
   text-align: center;
   font-weight:bold;
   letter-spacing: 1px;
-  font-size:medium;
+}
+body {
+  font-family: 'Raleway', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://i.imgur.com/N1AxbHO.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.achsnip1217 ul {
+.snip1217 ul {
   padding-top: 2%;
-  font-size: 120%;
-  margin-left: -4%;;
 }
-.achsnip1217 * {
+.snip1217 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-.achsnip1217 li {
+.snip1217 li {
   display: inline-block;
   list-style: outside none none;
   margin: 0.5em 1.5em;
   padding: 0;
 }
-.achsnip1217 a {
+.snip1217 a {
   padding: 0.3em 0;
   color: rgba(255, 255, 255, 0.5);
   position: relative;
   text-decoration: none;
   display: inline-block;
 }
-.achsnip1217 a:before,
-.achsnip1217 a:after {
+.snip1217 a:before,
+.snip1217 a:after {
   height: 3px;
   position: absolute;
   content: '';
@@ -42,25 +48,25 @@
   background-color: #7490dc;
   width: 0;
 }
-.achsnip1217 a:before {
+.snip1217 a:before {
   top: 0;
   left: 0;
 }
-.achsnip1217 a:after {
+.snip1217 a:after {
   bottom: 0;
   right: 0;
 }
-.achsnip1217 a:hover,
-.achsnip1217 .current a {
+.snip1217 a:hover,
+.snip1217 .current a {
   color: #ffffff;
 }
-.achsnip1217 a:hover:before,
-.achsnip1217 .current a:before,
-.achsnip1217 a:hover:after,
-.achsnip1217 .current a:after {
+.snip1217 a:hover:before,
+.snip1217 .current a:before,
+.snip1217 a:hover:after,
+.snip1217 .current a:after {
   width: 100%;
 }
-.achsnip1217 {
+.snip1217 {
   display: flex;
   flex-direction: column;
   background-image: url("https://i.imgur.com/N1AxbHO.gif");
@@ -94,7 +100,7 @@
   background-color: black;
   opacity: 0.8;
   margin-bottom:5%;
-  border: #7490dc solid 5px;
+  border: #7490dc solid 0.2px;
 }
 
 .card:hover {
